@@ -16,9 +16,10 @@
     "node": ">= 0.4.x < 0.7.0"
   },
   "dependencies": {
+    "debug": "*",
     "scaffolder": "*",
     "attachmate": "0.1.x",
-    "fstream": "0.1.x"
+    "miniglob": "*"
   },
   "devDependencies": {
   },
