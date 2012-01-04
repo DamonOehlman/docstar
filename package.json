@@ -1,0 +1,38 @@
+{
+  "name": "docstar",
+  "description": "Sphinx Documentation Helpers for JS devs",
+  "author": "Damon Oehlman <damon.oehlman@sidelab.com>",
+  "tags": [
+    "documentation",
+    "docs",
+    "sphinx"
+  ],
+  "version": "0.0.1",
+  "main": "index.js",
+  "bin": {
+    "interleave": "./bin/docstar"
+  },
+  "engines": {
+    "node": ">= 0.4.x < 0.7.0"
+  },
+  "dependencies": {
+    "scaffolder": "*",
+    "attachmate": "0.1.x",
+    "fstream": "0.1.x"
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DamonOehlman/docstar.git"
+  },
+  "bugs": {
+    "url": "http://github.com/DamonOehlman/docstar/issues"
+  },
+  
+  "scripts": { 
+      "test": "mocha --reporter spec -t 3000"
+  },
+  
+  "contributors": []
+}

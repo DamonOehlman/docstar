@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var path = require('path'),
+	builder = require('scaffolder').create(path.resolve(__dirname, '../'));
+	
+builder.once('ready', function(action) {
+	(action || builder.build).call(builder, builder, function() {
+		// done
+	});
+});
