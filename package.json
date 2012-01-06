@@ -19,8 +19,7 @@
     "debug": "*",
     "scaffolder": "*",
     "attachmate": "0.1.x",
-    "miniglob": "https://github.com/isaacs/miniglob/tarball/master",
-    "pkginfo": "0.2.x"
+    "miniglob": "https://github.com/isaacs/miniglob/tarball/master"
   },
   "devDependencies": {
   },

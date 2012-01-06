@@ -23,8 +23,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Docstar Template'
-copyright = '2012, Damon Oehlman <damon.oehlman@sidelab.com>'
+project = u'docstar'
+copyright = u'2012, Damon Oehlman <damon.oehlman@sidelab.com>'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
