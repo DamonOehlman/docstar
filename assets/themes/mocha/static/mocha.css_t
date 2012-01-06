@@ -21,8 +21,8 @@
 {% set related_bg = '#f4eed7' %}
 
 {# define pre colors #}
-{% set code_bg = '#f9f9f9' %}
-{% set code_block_border = '1px solid #f2f2f2' %}
+{% set code_bg = '#eee' %}
+{% set code_block_border = '1px solid #ddd' %}
 
 
 @import url("basic.css");
