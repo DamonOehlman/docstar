@@ -1,5 +1,9 @@
-Your Project Home
-=================
+Your Project
+============
+
+Some words about your project.   Maybe even include your README file here
+
+.. include:: ../README.rst
 
 Contents:
 
