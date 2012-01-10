@@ -1,12 +1,13 @@
 DocStar
 =======
 
-DocStar is a tool designed to help you document `Node.js`_ projects with `Sphinx`_.
+.. include:: ../README.rst
 
 .. toctree::
 	:maxdepth: 2
 	
 	getting-started
+	work-smarter
 
 
 

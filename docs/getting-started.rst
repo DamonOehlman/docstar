@@ -19,7 +19,7 @@ OK, so given you have docstar installed and available, the first thing to do is 
 
 1.  Change to your node project folder (i.e. the folder that has a ``package.json`` for the project).  DocStar takes care of a few things like keeping configs in sync through working with your package.json file.
 
-2.  Run::
+2.  Create a new boilerplate config with the following command::
 
 	docstar config create
 
