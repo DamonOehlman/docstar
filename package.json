@@ -7,17 +7,17 @@
     "docs",
     "sphinx"
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "bin": {
-    "interleave": "./bin/docstar"
+    "docstar": "./bin/docstar"
   },
   "engines": {
     "node": ">= 0.4.x < 0.7.0"
   },
   "dependencies": {
     "debug": "*",
-    "scaffolder": "*",
+    "scaffolder": "0.3.x",
     "attachmate": "0.1.x",
     "miniglob": "https://github.com/isaacs/miniglob/tarball/master"
   },
