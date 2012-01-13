@@ -1,9 +1,7 @@
 Your Project
 ============
 
-Some words about your project.   Maybe even include your README file here
-
-.. include:: ../README.rst
+Some words about your project.   Maybe even include your README file here.
 
 Contents:
 
