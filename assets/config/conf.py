@@ -68,8 +68,18 @@ pygments_style = 'trac'
 # A list of ignored prefixes for module index sorting.
 #modindex_common_prefix = []
 
+# -- Repository options used in the docstar templates --------------------------
+
+github_url = ''
+bitbucket_url = ''
 
 # -- Options for HTML output ---------------------------------------------------
+
+# define the source options for the html
+html_context = {
+    'github_url': github_url,
+    'bitbucket_url': bitbucket_url
+}
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.

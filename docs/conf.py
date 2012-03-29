@@ -68,8 +68,18 @@ pygments_style = 'trac'
 # A list of ignored prefixes for module index sorting.
 #modindex_common_prefix = []
 
+# -- Repository options used in the docstar templates --------------------------
+
+github_url = 'https://github.com/DamonOehlman/docstar'
+bitbucket_url = 'https://github.com/DamonOehlman/docstar'
 
 # -- Options for HTML output ---------------------------------------------------
+
+# define the source options for the html
+html_context = {
+    'github_url': github_url,
+    'bitbucket_url': bitbucket_url
+}
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
@@ -149,4 +159,4 @@ html_static_path = ['_static']
 #htmlhelp_basename = 'htmlhelp_base'
 
 # Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'http://docs.python.org/': None}
+intersphinx_mapping = {}
