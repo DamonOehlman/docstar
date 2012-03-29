@@ -7,7 +7,7 @@
     "docs",
     "sphinx"
   ],
-  "version": "0.0.5",
+  "version": "0.1.0",
   "main": "index.js",
   "bin": {
     "docstar": "./bin/docstar"
@@ -16,10 +16,13 @@
     "node": ">= 0.4.x < 0.7.0"
   },
   "dependencies": {
+    "climate": "0.2.x",
     "debug": "*",
-    "scaffolder": "0.3.x",
+    "scaffolder": "0.4.x",
     "attachmate": "0.1.x",
-    "miniglob": "https://github.com/isaacs/miniglob/tarball/master"
+    "glob": "3.x.x",
+    "out": "*",
+    "pkginfo": "0.2.x"
   },
   "devDependencies": {
   },
