@@ -33,8 +33,5 @@
   "bugs": {
     "url": "http://github.com/DamonOehlman/docstar/issues"
   },
-  "scripts": {
-    "test": "mocha --reporter spec -t 3000"
-  },
   "contributors": []
 }
