@@ -13,7 +13,7 @@ Certain information in your Sphinx generated documentation comes from placeholde
 
 Simply run the following command within your Node.js project directory::
 
-	docstar sync
+	docstar config sync
 	
 This will update particular pieces of information in configuration file.  At this stage the following information is taken from your ``package.json`` file and placed in your ``conf.py`` file:
 
