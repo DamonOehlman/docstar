@@ -1,14 +1,14 @@
+============
 Your Project
 ============
 
 Some words about your project.   Maybe even include your README file here.
 
-Contents:
+Document Contents
+=================
 
 .. toctree::
    :maxdepth: 2
-
-
 
 Indices and tables
 ==================
