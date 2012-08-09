@@ -1,7 +1,11 @@
+============
 Your Project
 ============
 
-Some words about your project which might be a `Node.js`_ library.   Maybe even include your README file here.
+Some words about your project which might be a `Node.js`_ library.   Maybe even include your README 
+
+Document Contents
+=================
 
 .. toctree::
    :maxdepth: 2
