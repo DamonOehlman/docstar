@@ -7,7 +7,7 @@
     "docs",
     "sphinx"
   ],
-  "version": "0.2.2",
+  "version": "0.3.1",
   "main": "index.js",
   "bin": {
     "docstar": "./bin/docstar"
