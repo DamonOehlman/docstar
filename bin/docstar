@@ -1,5 +1,2 @@
 #!/usr/bin/env node
-require('scaffolder')({
-    init: [
-    ]
-});
+require('scaffolder')();
