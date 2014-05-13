@@ -1,7 +1,7 @@
 var events = require('events'),
     debug = require('debug')('docstar'),
-    pkginfo = require('pkginfo'),
     path = require('path'),
+    fs = require('fs'),
     util = require('util'),
     _ = require('underscore'),
     repoTypes = {
@@ -31,7 +31,7 @@ function ConfigHelper() {
 ConfigHelper.prototype.create = function(docstar, scaffolder) {
   var helper = this;
 
-  path.exists(docstar.getConfigPath(), function(exists) {
+  fs.exists(docstar.getConfigPath(), function(exists) {
     // TODO: if the file exists, check that the user wants to overwrite
     if (exists) {
       scaffolder.out('!{red}There is an existing configuration, please remove before attempting to create a new config.');
@@ -50,7 +50,7 @@ ConfigHelper.prototype.create = function(docstar, scaffolder) {
 };
 
 ConfigHelper.prototype.sync = function(docstar, repl) {
-  var data = pkginfo.read(null, path.resolve('package.json'))['package'],
+  var data = require(path.resolve('package.json'))['package'],
       repoData = {};
 
   if (data) {
