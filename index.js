@@ -15,6 +15,26 @@ var fs = require('fs'),
       project: true
     };
 
+/**
+  # docstar
+
+  Docstar is a collection of tools to assist with build great looking docs for
+  JS libraries.  These tools are designed to help bridge the gap between
+  [Sphinx](http://sphinx.pocoo.org) and current JavaScript documentation tools.
+
+  The goal is to make documenting a library a well understood and repeatable
+  process, which in turn makes it feel easier.  The result being that having
+  documentation that is easier to write and maintain, improves the quality of
+  documentation have a net positive effect for the whole community.
+
+  ## Other Tools
+
+  I have moved across to using [gendocs](https://github.com/DamonOehlman/gendocs)
+  which feels like it has less overheads.  Additionally people visit documentation
+  sites less than they read README files.
+
+**/
+
 function DocStar(docpath) {
   this.path = path.resolve(docpath || 'docs');
   debug('docpath set to ' + this.path);
