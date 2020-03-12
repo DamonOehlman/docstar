@@ -16,7 +16,7 @@
     "async": "~0.8",
     "debug": "*",
     "glob": "^3",
-    "mkdirp": "~0.5",
+    "mkdirp": "~1.0.0",
     "ncp": "~0.5",
     "scaffolder": "~0.9",
     "underscore": "^1"
