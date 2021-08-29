@@ -15,7 +15,7 @@
   "dependencies": {
     "async": "~0.8",
     "debug": "*",
-    "glob": "^3",
+    "glob": "^5.0.15",
     "mkdirp": "~0.5",
     "ncp": "~0.5",
     "scaffolder": "~0.9",
